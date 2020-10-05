@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype") url("../fonts/Gilroy-Medium.ttf") format("truetype") url("../fonts/Gilroy-Medium.woff") format("woff") url("../fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("Gilroy-Bold.eot");
+  src: url("Gilroy-Bold.eot?#iefix") format("embedded-opentype") url("Gilroy-Bold.ttf") format("truetype") url("Gilroy-Bold.woff") format("woff") url("Gilroy-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul ol {
+  padding: 0;
+}
+
+body h1 h2 h3 h4 p ul ol li figure figcaption blockquote dl dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul ol {
+  list-style: none;
+}
+
+a:not() {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input button textarea select {
+  font: inherit;
+}
+
+* {
+  font-family: 'Gilroy' sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #070707;
+}
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
