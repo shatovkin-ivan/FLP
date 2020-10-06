@@ -1,5 +1,5 @@
 *
-    font-family: 'Gilroy' sans-serif
+    font-family: 'Gilroy', sans-serif
     font-weight: 400
     font-size: 18px
     color: #070707
@@ -8,3 +8,131 @@
     width: 100%
     padding: 0px 15px
     margin: 0 auto
+.header 
+    &__content
+        padding: 31px 0px
+        border-bottom: 1px solid $second-color
+        transform: matrix(1, 0, 0, 1, 0, 0)
+.menu
+    display: flex
+    justify-content: space-between
+    align-items: center
+    a 
+        color: $second-color
+        font-weight: 600
+        transition: .4s
+.autor
+    padding: 40px 0px 105px 0px
+    &__content
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+    &__title
+        font-size: 57px
+        font-weight: 600
+        line-height: 59px
+        max-width: 320px
+    &__description 
+        width: 33.333%
+    &__photo 
+        margin-top: 30px
+.change-language 
+    display: flex
+    transform: rotate(-90deg) translateX(33%) translateY(100%)
+    a 
+        color: $second-color
+        font-weight: 600
+        transition: .4s
+    span 
+        margin: 0px 3px
+.about
+    padding: 120px 0px 107px 0px
+    background-color: #F6F6F6
+    &__descr
+        margin: 18px auto 0px auto
+        max-width: 485px
+        p
+            text-align: center
+        p + p 
+            margin-top: 30px
+.subtitle 
+    text-align: center
+    font-size: 34px
+    font-weight: 600
+.skills 
+    padding: 91px 0px 110px 0px
+    &__text
+        text-align: center
+        margin: 70px 0px 87px 0px
+    &__items 
+        display: flex
+        justify-content: space-between
+    &__item
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        max-width: 170px
+        width: 100%
+        svg
+            width: 90px
+            height: 90px
+        p
+            font-size: 14px
+            color: $second-color
+            font-weight: 600
+            max-width: 100px
+            text-align: center
+            margin: 23px 0px 41px 0px
+.stars 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    svg
+        width: 25px
+        height: 25px
+    &_unactive 
+        fill: #E5E5E5
+.portfolio 
+    background-color: #F6F6F6
+    padding: 112px 0px 96px 0px
+    .subtitle
+        margin-bottom: -60px
+    &__img 
+        margin-bottom: 45px
+        margin-top: 100px
+    &__link
+        text-align: center
+        a 
+            text-decoration: underline
+.contacts 
+    padding: 114px 0px 123px 0px
+    &__text
+        text-align: center
+        max-width: 280px
+        margin: 20px auto 30px auto
+    &__btn
+        width: 180px
+        height: 42px
+        background-color: #070707
+        display: flex
+        justify-content: center
+        align-items: center
+        color: #fff
+        font-weight: 600
+        border-radius: 25px
+        margin: 0 auto
+    &__social 
+        display: flex
+        justify-content: space-between
+        margin: 85px auto 45px auto
+        max-width: 350px
+        width: 100%
+    &__copyright
+        text-align: center
+        margin: 0 auto
+        max-width: 240px
+        width: 100%
+        font-size: 14px
+        color: $second-color
